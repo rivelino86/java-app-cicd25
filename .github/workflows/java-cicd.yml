@@ -122,7 +122,6 @@ jobs:
          secrets: |
           secrets/creds/jfrog username | MAVEN_USERNAME_A ;
           secrets/creds/jfrog password | MAVEN_PASSWORD_A
-
      - name: push to JFrog
        env:
          MAVEN_USERNAME_A: ${{ env.MAVEN_USERNAME_A }}
