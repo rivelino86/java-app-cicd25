@@ -108,7 +108,7 @@ jobs:
      - name: Download JAR file artifact
        uses: actions/download-artifact@v4
        with:
-         name: utc_app-jar
+         name: utc-app-jar
          path: target/
 
      # Load secrets from Vault and set as env variables for rest of job
